@@ -2,6 +2,7 @@
 
 * {
     box-sizing: border-box;
+    font-family: Roboto;
 }
 
 body {
@@ -63,4 +64,63 @@ body {
     border: solid 1px #CCCCCC;
     width: 57px;
     background: #F8F8F8;
+}
+
+/*MAIN*/
+
+#container-main {
+    justify-content: center;
+    gap: 32px;
+    margin-top: 2rem;
+}
+
+#container-main article {
+    width: 60%;
+    gap: 16px;
+    flex-flow: column wrap;
+}
+
+#container-main article h1 {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#container-main article #channel-infos {
+    align-items: center;
+    gap: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*ASIDE*/
+
+#container-main aside {
+    width: 400px;
+    border: solid 1px red;
+    flex-flow: column wrap;
 }
