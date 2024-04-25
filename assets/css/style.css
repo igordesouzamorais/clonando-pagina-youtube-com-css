@@ -87,7 +87,8 @@ body {
 
 #video-actions {
     height: 42px;
-    border: solid 1px red;
+    /*border: solid 1px red;*/
+    gap: 42px;
 }
 
 #channel-infos img {
@@ -99,6 +100,7 @@ body {
 #video-actions #channel-infos {
     height: 100%;
     align-items: center;
+    justify-content: flex-start;
     gap: 12px;
     min-width: 160px;
 }
@@ -106,6 +108,7 @@ body {
 #video-actions #channel-infos h2 {
     font-size: 14px;
     font-weight: bold;
+    padding: 2px;
 }
 
 #video-actions #channel-infos p {
@@ -113,27 +116,16 @@ body {
     font-weight: 400;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#video-actions #inscreva-se button {
+    height: 40px;
+    width: 160px;
+    background: #CC0000;
+    color: #FFFFFF;
+    font-weight: bold;
+    border: transparent;
+    font-size: 14px;
+    border-radius: 2px;
+}
 
 
 /*ASIDE*/
