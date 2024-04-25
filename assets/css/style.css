@@ -85,14 +85,33 @@ body {
     font-weight: bold;
 }
 
-#container-main article #channel-infos {
-    align-items: center;
-    gap: 12px;
+#video-actions {
+    height: 42px;
+    border: solid 1px red;
 }
 
+#channel-infos img {
+    width: 42px;
+    height: 42px;
+    border-radius: 100%;
+}
 
+#video-actions #channel-infos {
+    height: 100%;
+    align-items: center;
+    gap: 12px;
+    min-width: 160px;
+}
 
+#video-actions #channel-infos h2 {
+    font-size: 14px;
+    font-weight: bold;
+}
 
+#video-actions #channel-infos p {
+    font-size: 14px;
+    font-weight: 400;
+}
 
 
 
