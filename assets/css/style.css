@@ -1,1 +1,35 @@
 @import url(reset.css);
+
+body {
+    background: #F9F9F9;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+}
+
+header {
+    background: #FFFFFF;
+}
+
+.red {
+    border: solid 1px red;
+}
+
+#container-header {
+    border: solid 1px red;
+    width: 100%;
+    height: 56px;
+    padding: 0 24px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#container-header .left {
+    width: 146px;
+    height: 24px;
+    align-items: center;
+    justify-content: space-between;
+}
