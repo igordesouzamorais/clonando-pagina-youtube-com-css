@@ -69,9 +69,10 @@ body {
 /*MAIN*/
 
 #container-main {
-    justify-content: center;
+    justify-content: center; /*testar depois com flexend*/
     gap: 32px;
     margin-top: 2rem;
+    /*padding-right: 100px;*/
 }
 
 #container-main article {
