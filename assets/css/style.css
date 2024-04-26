@@ -180,7 +180,6 @@ button{
 aside .aside-video {
     flex-flow: row wrap;
     gap: 1rem;
-    border: solid 1px red;
 }
 
 aside .aside-video .thumb {
@@ -189,5 +188,17 @@ aside .aside-video .thumb {
 }
 
 aside .aside-video .thumb-descricao {
-    border: solid 1px blue;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+}
+
+aside .aside-video .thumb-descricao .thumb-descricao-titulo {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+aside .aside-video .thumb-descricao p {
+    font-weight: 400;
+    font-size: 12px;
 }
