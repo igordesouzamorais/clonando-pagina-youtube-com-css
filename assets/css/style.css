@@ -76,10 +76,9 @@ a {
 /*MAIN*/
 
 #container-main {
-    justify-content: center; /*testar depois com flexend*/
+    justify-content: center;
     gap: 32px;
     margin-top: 2rem;
-    /*padding-right: 100px;*/
 }
 
 #container-main article {
@@ -119,8 +118,6 @@ a {
 }
 
 #channel-infos .canal a {
-    text-decoration: none;
-    color: black;
     font-size: 14px;
     font-weight: bold;
     padding: 2px;
