@@ -157,6 +157,14 @@ button{
     color: black;
 }
 
+#descricao-video p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #515151;
+    width: 50%;
+    text-align: left;
+}
+
 /*ASIDE*/
 
 #container-main aside {
