@@ -182,7 +182,7 @@ aside .aside-video {
     gap: 1rem;
 }
 
-aside .aside-video .thumb {
+aside .aside-video .thumb img {
     width: 160px;
     height: 90px;
 }
@@ -195,6 +195,7 @@ aside .aside-video .thumb-descricao {
 
 aside .aside-video .thumb-descricao .thumb-descricao-titulo {
     font-weight: bold;
+    height: 30px;
     font-size: 14px;
 }
 
