@@ -93,13 +93,15 @@ button{
     gap: 42px;
 }
 
+/*#channel-infos*/
+
 #channel-infos img {
     width: 42px;
     height: 42px;
     border-radius: 100%;
 }
 
-#video-actions #channel-infos {
+#channel-infos {
     height: 100%;
     align-items: center;
     justify-content: flex-start;
@@ -107,7 +109,11 @@ button{
     min-width: 160px;
 }
 
-#video-actions #channel-infos a {
+#channel-infos .canal {
+    flex-direction: column;
+}
+
+#channel-infos .canal a {
     text-decoration: none;
     color: black;
     font-size: 14px;
@@ -115,10 +121,12 @@ button{
     padding: 2px;
 }
 
-#video-actions #channel-infos p {
+#channel-infos .canal p {
     font-size: 14px;
     font-weight: 400;
 }
+
+/*#video-actions*/
 
 #video-actions #inscreva-se button {
     height: 40px;
@@ -140,10 +148,6 @@ button{
 #video-actions .opcoes p {
     font-weight: bold;
     font-size: 14px;
-}
-
-#video-ations div {
-    border: solid 1px red;
 }
 
 /*ASIDE*/
