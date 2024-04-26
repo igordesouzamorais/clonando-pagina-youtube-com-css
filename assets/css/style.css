@@ -10,6 +10,10 @@ body {
     width: 100%;
 }
 
+button{
+    cursor: pointer;
+}
+
 .container {
     display: flex;
 }
@@ -39,7 +43,6 @@ body {
     text-decoration: none;
     background-color: #FFFFFF;
     border: transparent;
-    cursor: pointer;
 }
 
 /*CENTER*/
@@ -60,7 +63,6 @@ body {
 }
 
 #container-header .center form button {
-    cursor: pointer;
     border: solid 1px #CCCCCC;
     width: 57px;
     background: #F8F8F8;
