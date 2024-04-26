@@ -165,10 +165,29 @@ button{
     text-align: left;
 }
 
+/*FIM MAIN ARTICLE*/
+
 /*ASIDE*/
 
 #container-main aside {
-    width: 400px;
-    border: solid 1px red;
+    width: 20%;
+    max-width: 400px;
+    min-width: 200px;
     flex-flow: column wrap;
+    gap: 1rem;
+}
+
+aside .aside-video {
+    flex-flow: row wrap;
+    gap: 1rem;
+    border: solid 1px red;
+}
+
+aside .aside-video .thumb {
+    width: 160px;
+    height: 90px;
+}
+
+aside .aside-video .thumb-descricao {
+    border: solid 1px blue;
 }
