@@ -150,6 +150,13 @@ button{
     font-size: 14px;
 }
 
+/*visualizacoes*/
+#visualizacoes p {
+    font-weight: bold;
+    font-size: 14px;
+    color: black;
+}
+
 /*ASIDE*/
 
 #container-main aside {
