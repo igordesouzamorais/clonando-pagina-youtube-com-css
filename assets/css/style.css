@@ -12,6 +12,8 @@ body {
 
 button{
     cursor: pointer;
+    background-color: transparent;
+    border: transparent;
 }
 
 a {
@@ -136,13 +138,16 @@ a {
     background: #CC0000;
     color: #FFFFFF;
     font-weight: bold;
-    border: transparent;
     font-size: 14px;
     border-radius: 2px;
-    cursor: pointer;
 }
 
 #video-actions .opcoes {
+    align-items: center;
+    gap: 5px;
+}
+
+#video-actions .opcoes button {
     align-items: center;
     gap: 5px;
 }
